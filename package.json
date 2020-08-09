@@ -1,0 +1,23 @@
+{
+  "name": "node-api-data",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server-local.js",
+    "build": "netlify-lambda build serverless",
+    "serve": "netlify-lambda serve serverless"
+  },
+  "author": "Minh Nguyen",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "time-series-data-generator": "^0.1.5"
+  },
+  "devDependencies": {
+    "netlify-lambda": "^2.0.1",
+    "serverless-http": "^2.5.0"
+  }
+}
